@@ -13,7 +13,7 @@ export class RecipeListComponent {
 
   recipes: Recipe[] = [
     new Recipe('Test recipe', 'Simply a test', '#'),
-    new Recipe('Another test recipe', 'Simply a test', '#'),
+    new Recipe('Another test recipe', 'Another simple a test', '#'),
   ];
 
   onRecipeSelected(recipe: Recipe) {
